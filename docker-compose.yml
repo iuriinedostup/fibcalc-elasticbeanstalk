@@ -16,7 +16,7 @@ services:
   client:
     image: iuriinedostup/multi-client:latest
     stdin_open: true
-    mem_limit: 128m
+    mem_limit: 256m
     hostname: client
 
   worker:
